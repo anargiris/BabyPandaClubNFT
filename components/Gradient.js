@@ -97,6 +97,28 @@ const Gradient = () => {
               repeatCount="indefinite"
             />
           </rect>
+          <rect x="0" y="0" width="100%" height="80%" fill="url(#Gradient8)">
+            <animate
+              attributeName="x"
+              dur="20s"
+              values="25%;0%;50%"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="y"
+              dur="21s"
+              values="0%;50%;0%"
+              repeatCount="indefinite"
+            />
+            <animateTransform
+              attributeName="transform"
+              type="rotate"
+              from="0 50 50"
+              to="360 50 50"
+              dur="17s"
+              repeatCount="indefinite"
+            />
+          </rect>
           <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient5)">
             <animate
               attributeName="x"
