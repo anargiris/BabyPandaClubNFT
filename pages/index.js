@@ -33,8 +33,8 @@ export default function Home() {
                   generated collectibles living on the Ethereum blockchain.
                   <br />
                   <br />
-                  We are an "NFT for Good" project, aiming at doing charity
-                  work.
+                  We are an &quot;NFT for Good&quot; project, aiming at doing
+                  charity work.
                 </p>
 
                 <button className="bg-green-secondary border border-green-main text-white py-2 px-4 hover:bg-green-main transition duration-200">
@@ -72,7 +72,7 @@ export default function Home() {
                 endangered species of pandas around the world.
               </p>
               <p className="text-bg text-lg mt-5 font-bold font-abel leading-7">
-                The end goal is to do charity work helping WWF's{" "}
+                The end goal is to do charity work helping WWF&apos;s{" "}
                 <Link href="https://support.worldwildlife.org/site/SPageServer?pagename=PandaAmbassadors">
                   <a target="_blank" className="text-green-secondary">
                     Panda Ambassador Program

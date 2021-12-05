@@ -45,7 +45,7 @@ const Roadmap = () => {
           <p>
             Our first donation to charity comes here. Our community will be
             asked to vote in a poll and 2 ETH will be donated to the charity
-            that wins the poll. That's only the start!
+            that wins the poll. This is only the start!
           </p>
         </div>
         <div className=" w-1/2 relative transform skew-x-6 skew-y-3 flex items-center justify-center">

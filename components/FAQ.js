@@ -14,10 +14,10 @@ const FAQ = () => {
               What is an NFT?
             </p>
             <p className="text-gray-700 text-lg">
-              NFT is short for "non-fungible token." An NFT is an indivisible
-              token capable of storing a digital file for a specific purpose.
-              Thus, an NFT can represent a work of art, music album, or any
-              other type of digital file.
+              NFT is short for &quot;non-fungible token.&quot; An NFT is an
+              indivisible token capable of storing a digital file for a specific
+              purpose. Thus, an NFT can represent a work of art, music album, or
+              any other type of digital file.
             </p>
           </div>
           <div className="mb-5">
