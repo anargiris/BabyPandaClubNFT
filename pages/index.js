@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import Link from "next/link";
 import Roadmap from "../components/Roadmap";
 import FounderCard from "../components/FounderCard";
+import FAQ from "../components/FAQ";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,39 +14,32 @@ export default function Home() {
       <div className="bg-bg">
         <header className="h-screen relative overflow-hidden">
           <Navbar />
-          <div className="px-20 relative z-10 flex justify-around gap-20">
-            <div className="relative w-2/3">
+          <Image
+            src="/bg.jpg"
+            layout="fill"
+            objectFit="cover"
+            objectPosition="bottom"
+          />
+          <div className="px-20 relative z-10">
+            <div className="relative">
               <h1
-                className={`  text-7xl text-gray-800 font-bold font-serifdm mb-12`}
+                className={` ${styles.heading} text-7xl text-bg font-bold font-serifdm `}
               >
                 Baby Panda Club
               </h1>
-              <div className="bg-green-secondary w-full mb-6 shadow-sm border border-green-main bg-opacity-10 p-5">
-                <p className="font-abel text-xl text-gray-800">
-                  Baby Pandas Club is an NFT project of 10,000 unique, randomly
+              <div className="w-1/2 float-right p-5">
+                <p className="font-abel text-xl text-bg mb-4">
+                  Baby Panda Club is an NFT project of 10,000 unique, randomly
                   generated collectibles living on the Ethereum blockchain.
                   <br />
                   <br />
-                  Our goal is to create a big, caring community while being
-                  charity-friendly and generous to the holders.
+                  We are an "NFT for Good" project, aiming at doing charity
+                  work.
                 </p>
-              </div>
-              <div>
-                <button className="bg-green-secondary border border-green-main text-white py-2 px-4">
+
+                <button className="bg-green-secondary border border-green-main text-white py-2 px-4 hover:bg-green-main transition duration-200">
                   Buy on Opensea
                 </button>
-              </div>
-              <div className="absolute bottom-0 flex gap-5">
-                <Link href="/">
-                  <a>
-                    <Image src="/icons/twitter.svg" width={40} height={40} />
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a>
-                    <Image src="/icons/discord.svg" width={40} height={40} />
-                  </a>
-                </Link>
               </div>
             </div>
             <div className="pb-10 -mt-10 flex justify-center items-center">
@@ -53,12 +48,15 @@ export default function Home() {
           </div>
         </header>
         <main>
-          <div className="bg-bg-dark max-w-7xl mx-auto gap-20 p-20 flex justify-around">
+          <section
+            id="about"
+            className="bg-bg-dark max-w-7xl mx-auto gap-20 p-20 flex justify-around"
+          >
             <div className="w-1/2">
               <h2 className="text-pink-main tracking-wider font-bold text-2xl  font-serifdm">
                 Baby Panda Club
               </h2>
-              <div className="w-full border-b border-pink-main pt-2 mb-4"></div>
+              <div className="w-full border-b border-bg pt-2 mb-4"></div>
               <p className="text-bg font-abel leading-7">
                 A collection of <span className="font-bold">10.000</span> unique
                 and super cool baby pandas living in the{" "}
@@ -89,8 +87,8 @@ export default function Home() {
                 <Image src="/portrait.jpg" layout="fill" />
               </div>
             </div>
-          </div>
-          <div className="bg-bg relative overflow-hidden pb-10">
+          </section>
+          <div id="roadmap" className="bg-bg relative overflow-hidden pb-10">
             <Gradient />
             <div className=" px-20 py-5">
               <h3 className="font-serifdm tracking-wide mb-10 text-center font-bold text-bg-dark text-5xl">
@@ -120,19 +118,14 @@ export default function Home() {
               <FounderCard image="/portrait.jpg" name="Spuros" role="zwon" />
             </div>
           </section>
-          <section className="py-5 bg-bg font-abel">
-            <h3 className="text-5xl tracking-wide font-serifdm font-bold mb-2 text-bg-dark text-center">
-              Sponsors
-            </h3>
-            <p className="text-lg text-center mb-5 max-w-4xl mx-auto">
-              The following organizations are helping us push the project
-              forward.
-              <br />
-              Are you interested in sponsoring Baby Panda Club?
-            </p>
-          </section>
+          <FAQ />
         </main>
       </div>
+      <footer className="bg-bg-dark p-10 font-abel">
+        <p className="text-bg">
+          Are you interested in sponsoring the project? Send a mail here.
+        </p>
+      </footer>
     </>
   );
 }
