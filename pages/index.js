@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div className="bg-bg">
-        <header className="h-screen relative overflow-hidden">
+        <header className="h-screen w-full relative overflow-hidden">
           <Navbar />
           <Image
             src="/bg.jpg"
@@ -20,15 +20,15 @@ export default function Home() {
             objectFit="cover"
             objectPosition="bottom"
           />
-          <div className="px-20 relative z-10">
+          <div className="lg:px-20 relative z-10">
             <div className="relative">
               <h1
-                className={` ${styles.heading} text-7xl text-bg font-bold font-serifdm `}
+                className={` ${styles.heading} lg:text-7xl text-5xl text-center lg:text-left whitespace-nowrap text-bg font-bold font-serifdm `}
               >
                 Baby Panda Club
               </h1>
-              <div className="w-1/2 float-right p-5">
-                <p className="font-abel text-xl text-bg mb-4">
+              <div className="lg:w-1/2 float-right p-5">
+                <p className="font-abel lg:text-xl text-bg mb-8 text-center px-2 lg:text-left">
                   Baby Panda Club is an NFT project of 10,000 unique, randomly
                   generated collectibles living on the Ethereum blockchain.
                   <br />
@@ -37,58 +37,48 @@ export default function Home() {
                   charity work.
                 </p>
 
-                <button className="bg-green-secondary border border-green-main text-white py-2 px-4 hover:bg-green-main transition duration-200">
+                <button className="bg-green-secondary mx-auto border border-green-main text-white py-2 px-4 flex justify-center items-center hover:bg-green-main transition duration-200">
                   Buy on Opensea
                 </button>
               </div>
-            </div>
-            <div className="pb-10 -mt-10 flex justify-center items-center">
-              <Image src="/cool-panda.png" width={400} height={500} />
             </div>
           </div>
         </header>
         <main>
           <section
             id="about"
-            className="bg-bg-dark max-w-7xl mx-auto gap-20 p-20 flex justify-around"
+            className="bg-bg-dark max-w-7xl mx-auto gap-20 lg:p-20 p-5 flex lg:flex-row flex-col justify-around"
           >
-            <div className="w-1/2">
+            <div className="lg:w-1/2">
               <h2 className="text-pink-main tracking-wider font-bold text-2xl  font-serifdm">
                 Baby Panda Club
               </h2>
               <div className="w-full border-b border-bg pt-2 mb-4"></div>
               <p className="text-bg font-abel leading-7">
-                A collection of <span className="font-bold">10.000</span> unique
-                and super cool baby pandas living in the{" "}
-                <span className="text-green-secondary font-bold tracking-wide">
-                  Pandaverse!
-                </span>
-                <br />
-                Each baby panda is a combination of hand-drawn and computer
-                generated images, completely unique to each other based on 8
-                different traits. <br /> <br />
-                Our plan is to build a strong community, provide to the holders
-                with giveaways and cool events while raising awarness about the
-                endangered species of pandas around the world.
+                The Baby Panda Club is a collection of 10,000 unique and
+                randomly generated collectibles living on the ECR-20 blockchain.
+                Each baby panda is a combination of different hand-drawn images.
+                <br /> <br /> Our goal is to create a strong community, giving
+                back to holders, hosting cool events and raising awareness about
+                endangered species.
               </p>
-              <p className="text-bg text-lg mt-5 font-bold font-abel leading-7">
-                The end goal is to do charity work helping WWF&apos;s{" "}
-                <Link href="https://support.worldwildlife.org/site/SPageServer?pagename=PandaAmbassadors">
-                  <a target="_blank" className="text-green-secondary">
-                    Panda Ambassador Program
-                  </a>
-                </Link>
-                !
+              <br />
+              <p className="text-xs mt-4 text-pink-main italic opacity-90">
+                For each baby panda 30% of the introductory sale and 20% of the
+                royalties will be donated to a selected charitable organization.
               </p>
             </div>
-            <div className="flex items-center justify-center w-1/2">
+            <div className="flex items-center justify-center lg:w-1/2 pb-12 lg:pb-0">
               <div className="relative w-80 h-80">
                 <div className="absolute w-full h-full bg-bg opacity-10 transform rotate-12"></div>
                 <Image src="/portrait.jpg" layout="fill" />
               </div>
             </div>
           </section>
-          <div id="roadmap" className="bg-bg relative overflow-hidden pb-10">
+          <div
+            id="roadmap"
+            className="bg-bg relative overflow-hidden min-h-screen pb-10"
+          >
             <Gradient />
             <div className=" px-20 py-5">
               <h3 className="font-serifdm tracking-wide mb-10 text-center font-bold text-bg-dark text-5xl">
@@ -121,9 +111,18 @@ export default function Home() {
           <FAQ />
         </main>
       </div>
-      <footer className="bg-bg-dark p-10 font-abel">
+      <footer className="bg-bg-dark py-5 px-10 font-abel">
         <p className="text-bg">
-          Are you interested in sponsoring the project? Send a mail here.
+          Are you interested in sponsoring the project?{" "}
+          <a
+            href="mailto:babypandaclub.bpc@gmail.com"
+            className="text-pink-main font-bold"
+          >
+            Email us.
+          </a>
+        </p>
+        <p className="mt-4 text-bg font-serifdm tracking-wide text-sm">
+          &#169; Baby Panda Club {new Date().getFullYear()}
         </p>
       </footer>
     </>

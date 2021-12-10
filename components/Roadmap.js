@@ -3,8 +3,8 @@ import React from "react";
 const Roadmap = () => {
   return (
     <div className="flex flex-col gap-2 justify-center items-center relative z-20 font-abel">
-      <div className="flex gap-5 justify-between">
-        <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 w-1/2">
+      <div className="flex lg:flex-row flex-col-reverse lg:gap-5 justify-between">
+        <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
           <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
             Giveaway
           </h5>
@@ -14,7 +14,7 @@ const Roadmap = () => {
             our Twitter and Discord channels.
           </p>
         </div>
-        <div className=" w-1/2 relative transform skew-x-6 skew-y-3 flex items-center justify-center">
+        <div className=" lg:w-1/2 relative transform skew-x-6 skew-y-3 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             20%
           </p>

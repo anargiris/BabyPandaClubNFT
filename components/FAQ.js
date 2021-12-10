@@ -39,6 +39,15 @@ const FAQ = () => {
               Panda as long as it exists on your wallet.
             </p>
           </div>
+          <div className="mb-5">
+            <p className="text-bg-dark text-xl font-semibold mb-1">
+              What is your charity contribution?
+            </p>
+            <p className="text-gray-700 text-lg">
+              For each Baby Panda, 30% of the introductory sale and 20% of the
+              royalties would be donated to a selected charitable organization.
+            </p>
+          </div>
         </div>
         <div className="flex flex-col w-1/2">
           <div className="mb-5">
