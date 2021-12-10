@@ -36,10 +36,11 @@ export default function Home() {
                   We are an &quot;NFT for Good&quot; project, aiming at doing
                   charity work.
                 </p>
-
-                <button className="bg-green-secondary mx-auto border border-green-main text-white py-2 px-4 flex justify-center items-center hover:bg-green-main transition duration-200">
-                  Buy on Opensea
-                </button>
+                <Link href="https://opensea.io/collection/baby-panda-club">
+                  <button className="bg-green-secondary mx-auto border border-green-main text-white py-2 px-4 flex justify-center items-center hover:bg-green-main transition duration-200">
+                    Buy on Opensea
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -55,15 +56,15 @@ export default function Home() {
               </h2>
               <div className="w-full border-b border-bg pt-2 mb-4"></div>
               <p className="text-bg font-abel leading-7">
-                The Baby Panda Club is a collection of 10,000 unique and
-                randomly generated collectibles living on the ECR-20 blockchain.
-                Each baby panda is a combination of different hand-drawn images.
+                Baby Panda Club is a collection of 10,000 unique and randomly
+                generated collectibles living on the ECR-20 blockchain. Each
+                baby panda is a combination of different hand-drawn images.
                 <br /> <br /> Our goal is to create a strong community, giving
                 back to holders, hosting cool events and raising awareness about
                 endangered species.
               </p>
               <br />
-              <p className="text-xs mt-4 text-pink-main italic opacity-90">
+              <p className="text-xs mt-4 font-abel text-pink-main italic opacity-90">
                 For each baby panda 30% of the introductory sale and 20% of the
                 royalties will be donated to a selected charitable organization.
               </p>
@@ -75,43 +76,51 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <div
-            id="roadmap"
-            className="bg-bg relative overflow-hidden min-h-screen pb-10"
-          >
+          <div id="roadmap" className="bg-bg relative overflow-hidden  pb-10">
             <Gradient />
-            <div className=" px-20 py-5">
+            <div className=" lg:px-20 px-5 py-5">
               <h3 className="font-serifdm tracking-wide mb-10 text-center font-bold text-bg-dark text-5xl">
                 Roadmap
               </h3>
               <Roadmap />
             </div>
           </div>
-          <section className="bg-bg-dark px-20 py-4 w-full font-abel">
-            <h3 className="text-5xl tracking-wide font-serifdm font-bold mb-5 text-bg text-center">
+          <section className="bg-bg-dark lg:px-20 px-5 py-4 w-full font-abel">
+            <h3 className="lg:text-5xl text-3xl tracking-wide font-serifdm font-bold mb-5 text-bg text-center">
               About us
             </h3>
-            <p className="text-bg text-lg text-center mb-5 max-w-4xl mx-auto">
+            <p className="text-bg lg:text-lg text-center mb-5 lg:max-w-4xl mx-auto">
               We are a small team of NFT enthusiasts based in Greece. Our
               diverse skill set and excitement for this new way of connecting
               with people around the world are what gave life to this project.
             </p>
-            <div className="flex justify-evenly items-center max-w-5xl mx-auto">
+            <div className="flex lg:flex-row flex-col justify-evenly lg:items-center lg:max-w-5xl lg:mx-auto">
               <FounderCard
                 image="/portrait.jpg"
                 name="Anargyros"
-                role="PAIKTARAS"
+                role="Founder - Web developer"
+                twitterLink="https://twitter.com/AStylidis"
               />
-              <div className="border-b border-bg w-20 mb-10"></div>
-              <FounderCard image="/portrait.jpg" name="Xristos" role="zwon" />
-              <div className="border-b border-bg w-20 mb-10"></div>
-              <FounderCard image="/portrait.jpg" name="Spuros" role="zwon" />
+              <div className="border-b border-bg w-20 mb-10 lg:block hidden"></div>
+              <FounderCard
+                image="/portrait.jpg"
+                name="Xristos"
+                role="Founder - Creative lead"
+                twitterLink="https://twitter.com/AStylidis"
+              />
+              <div className="border-b border-bg w-20 mb-10 lg:block hidden"></div>
+              <FounderCard
+                image="/portrait.jpg"
+                name="Spuros"
+                role="Founder - organizer"
+                twitterLink="https://twitter.com/AStylidis"
+              />
             </div>
           </section>
           <FAQ />
         </main>
       </div>
-      <footer className="bg-bg-dark py-5 px-10 font-abel">
+      <footer className="bg-bg-dark py-5 lg:px-10 px-5 font-abel">
         <p className="text-bg">
           Are you interested in sponsoring the project?{" "}
           <a

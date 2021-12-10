@@ -14,19 +14,19 @@ const Roadmap = () => {
             our Twitter and Discord channels.
           </p>
         </div>
-        <div className=" lg:w-1/2 relative transform skew-x-6 skew-y-3 flex items-center justify-center">
+        <div className=" lg:w-1/2 relative lg:transform lg:skew-x-6 lg:skew-y-3 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             20%
           </p>
         </div>
       </div>
-      <div className="flex gap-5 justify-between">
-        <div className=" w-1/2 relative transform skew-x-3 -skew-y-6 flex items-center justify-center">
+      <div className="flex lg:flex-row flex-col lg:gap-5 justify-between">
+        <div className=" lg:w-1/2 relative transform lg:skew-x-3 lg:-skew-y-6 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             40%
           </p>
         </div>
-        <div className="bg-bg-dark  border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 w-1/2">
+        <div className="bg-bg-dark  border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
           <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
             Legendary Baby Pandas!
           </h5>
@@ -37,8 +37,8 @@ const Roadmap = () => {
           </p>
         </div>
       </div>
-      <div className="flex gap-5 justify-between">
-        <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 w-1/2">
+      <div className="flex lg:flex-row flex-col-reverse lg:gap-5 justify-between">
+        <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
           <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
             Charity donation!
           </h5>
@@ -48,19 +48,19 @@ const Roadmap = () => {
             that wins the poll. This is only the start!
           </p>
         </div>
-        <div className=" w-1/2 relative transform skew-x-6 skew-y-3 flex items-center justify-center">
+        <div className="lg:w-1/2 relative lg:transform lg:skew-x-6 lg:skew-y-3 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             60%
           </p>
         </div>
       </div>
-      <div className="flex gap-5 justify-between">
-        <div className=" w-1/2 relative transform skew-x-3 -skew-y-6 flex items-center justify-center">
+      <div className="flex lg:flex-row flex-col lg:gap-5 justify-between">
+        <div className=" lg:w-1/2 relative lg:transform lg:skew-x-3 lg:-skew-y-6 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             80%
           </p>
         </div>
-        <div className="bg-bg-dark border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 w-1/2">
+        <div className="bg-bg-dark border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
           <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
             Charity donation!
           </h5>
@@ -69,8 +69,8 @@ const Roadmap = () => {
           through our Twitter and Discord channels.
         </div>
       </div>
-      <div className="flex gap-5 justify-between">
-        <div className="bg-bg-dark  border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 w-1/2">
+      <div className="flex lg:flex-row flex-col-reverse lg:gap-5 justify-between">
+        <div className="bg-bg-dark  border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
           <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
             Charity donation!
           </h5>
@@ -78,7 +78,7 @@ const Roadmap = () => {
           completely random and the people participating will be announced
           through our Twitter and Discord channels.
         </div>
-        <div className=" w-1/2 relative transform skew-x-6 skew-y-3 flex items-center justify-center">
+        <div className="lg:w-1/2 relative lg:transform lg:skew-x-6 lg:skew-y-3 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             100%
           </p>

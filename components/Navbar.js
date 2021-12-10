@@ -25,15 +25,15 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="flex gap-2 pt-2">
-        <Link href="/">
+      <div className="flex gap-2 pt-3">
+        <Link href="https://twitter.com/BabyPandaClub">
           <a>
-            <Image src="/icons/twitter.svg" width={25} height={25} />
+            <Image src="/icons/twitter.svg" width={17} height={17} />
           </a>
         </Link>
-        <Link href="/">
+        <Link href="https://discord.gg/WBHzy3n7">
           <a>
-            <Image src="/icons/discord.svg" width={25} height={25} />
+            <Image src="/icons/discord.svg" width={20} height={20} />
           </a>
         </Link>
       </div>
