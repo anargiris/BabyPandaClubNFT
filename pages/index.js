@@ -23,6 +23,10 @@ export default function Home() {
         <meta property="og:url" content="https://dimitrakoudas.gr" />
         <meta property="og:title" content="Baby Panda Club" />
         <meta
+          name="google-site-verification"
+          content="Eighnv1FNLp_UWmPnGHGZndiWCBXCfz_8fTGjRrgxP4"
+        />
+        <meta
           property="description"
           content="Official website for the Baby Panda Club NFT project. The project aims at providing support through donations and giveaways to endangered wildlife."
         />
