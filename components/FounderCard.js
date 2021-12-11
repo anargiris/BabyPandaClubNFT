@@ -14,7 +14,12 @@ const FounderCard = ({ name, image, role, twitterLink }) => {
 
           <Link href={twitterLink}>
             <a className="pt-1">
-              <Image src="/icons/twitter.svg" width={15} height={15} />
+              <Image
+                src="/icons/twitter.svg"
+                alt={`${name} profile picture Baby Panda`}
+                width={15}
+                height={15}
+              />
             </a>
           </Link>
         </div>

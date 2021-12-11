@@ -28,12 +28,22 @@ const Navbar = () => {
         <div className="flex gap-2 pt-3">
           <Link href="https://twitter.com/BabyPandaClub">
             <a>
-              <Image src="/icons/twitter.svg" width={17} height={17} />
+              <Image
+                src="/icons/twitter.svg"
+                alt="Twitter link SVG icon"
+                width={17}
+                height={17}
+              />
             </a>
           </Link>
           <Link href="https://discord.gg/WBHzy3n7">
             <a>
-              <Image src="/icons/discord.svg" width={20} height={20} />
+              <Image
+                src="/icons/discord.svg"
+                alt="Discord link SVG icon"
+                width={20}
+                height={20}
+              />
             </a>
           </Link>
         </div>

@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <title>Baby Panda Club</title>
         <meta name="robots" content="index, follow" />
         <meta property="og:site_name" content="Baby Panda Club" />
@@ -45,6 +45,7 @@ export default function Home() {
               layout="fill"
               objectFit="cover"
               objectPosition="bottom"
+              alt="Baby Panda Club header background image"
             />
           </div>
 
@@ -103,7 +104,11 @@ export default function Home() {
               <div className="flex items-center justify-center md:w-1/2 pb-12 md:pb-0">
                 <div className="relative w-80 h-80">
                   <div className="absolute w-full h-full bg-bg opacity-10 transform rotate-12"></div>
-                  <Image src="/PandaverseGif.gif" layout="fill" />
+                  <Image
+                    src="/PandaverseGif.gif"
+                    layout="fill"
+                    alt="Baby Panda gif showcase of different pandas"
+                  />
                 </div>
               </div>
             </div>
