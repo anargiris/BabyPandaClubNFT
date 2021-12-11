@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import Gradient from "../components/Gradient";
 import Navbar from "../components/Navbar";
@@ -7,11 +6,35 @@ import Roadmap from "../components/Roadmap";
 import FounderCard from "../components/FounderCard";
 import FAQ from "../components/FAQ";
 import styles from "../styles/Home.module.css";
-import MobileNav from "../components/MobileNav";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Baby Panda Club</title>
+        <meta name="robots" content="index, follow" />
+        <meta property="og:site_name" content="Baby Panda Club" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://babypandaclub.io" />
+        <meta property="og:url" content="https://dimitrakoudas.gr" />
+        <meta property="og:title" content="Baby Panda Club" />
+        <meta
+          property="description"
+          content="Official website for the Baby Panda Club NFT project. The project aims at providing support through donations and giveaways to endangered wildlife."
+        />
+        <meta
+          property="og:description"
+          content="Official website for the Baby Panda Club NFT project. The project aims at providing support through donations and giveaways to endangered wildlife."
+        />
+        <meta
+          property="og:image"
+          content="https://babypandaclub.io/portrait.jpg"
+        />
+      </Head>
       <div className="bg-bg">
         <header
           className={`${styles.background} bg-bg-dark h-screen w-full relative overflow-hidden z-20`}
