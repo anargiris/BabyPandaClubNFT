@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const FounderCard = ({ name, image, role, twitterLink }) => {
   return (
-    <div className="p-4 flex lg:flex-col flex-row gap-10 lg:gap-0">
+    <div className="lg:p-4 p-2 flex lg:flex-col flex-row gap-10 lg:gap-0">
       <Image src={image} width={200} height={200} />
 
       <div className="text-center flex flex-col justify-center items-center">
@@ -17,7 +17,9 @@ const FounderCard = ({ name, image, role, twitterLink }) => {
             </a>
           </Link>
         </div>
-        <p className="text-pink-main opacity-90 text-sm italic">{role}</p>
+        <p className="text-pink-main opacity-90 text-sm whitespace-nowrap italic">
+          {role}
+        </p>
       </div>
     </div>
   );

@@ -2,8 +2,8 @@ import React from "react";
 
 const Gradient = () => {
   return (
-    <div className="w-full h-full opacity-30 absolute">
-      <div className=" h-full w-full" id="bg-wrap">
+    <div className="w-full opacity-30 absolute">
+      <div className="h-full w-full" id="bg-wrap">
         <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
           <defs>
             <radialGradient

@@ -98,21 +98,21 @@ export default function Home() {
               <FounderCard
                 image="/portrait.jpg"
                 name="Anargyros"
-                role="Founder - Web developer"
+                role="Founder - Development Lead"
                 twitterLink="https://twitter.com/AStylidis"
               />
               <div className="border-b border-bg w-20 mb-10 lg:block hidden"></div>
               <FounderCard
                 image="/portrait.jpg"
                 name="Xristos"
-                role="Founder - Creative lead"
+                role="Founder - Creative Lead"
                 twitterLink="https://twitter.com/AStylidis"
               />
               <div className="border-b border-bg w-20 mb-10 lg:block hidden"></div>
               <FounderCard
                 image="/portrait.jpg"
                 name="Spuros"
-                role="Founder - organizer"
+                role="Founder - Project Lead"
                 twitterLink="https://twitter.com/AStylidis"
               />
             </div>
