@@ -26,7 +26,7 @@ export default function Home() {
 
           <Navbar />
           <div className="md:px-20 relative">
-            <div className="relative md:pt-0 pt-4">
+            <div className="relative pt-4 flex items-start gap-20 justify-center">
               <h1
                 className={` ${styles.heading} md:text-7xl text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm `}
               >
