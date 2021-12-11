@@ -42,7 +42,7 @@ export default function Home() {
                   charity work.
                 </p>
                 <Link href="https://opensea.io/collection/baby-panda-club">
-                  <button className="bg-green-secondary mx-auto border border-green-main text-white py-2 px-4 flex justify-center items-center hover:bg-green-main transition duration-200">
+                  <button className="bg-green-secondary mx-auto md border border-green-main text-white py-2 px-4 md:justify-self-auto md:items-baseline md:block flex justify-center items-center hover:bg-green-main transition duration-200">
                     Buy on Opensea
                   </button>
                 </Link>
