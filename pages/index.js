@@ -12,8 +12,9 @@ export default function Home() {
   return (
     <>
       <div className="bg-bg">
-        <header className="h-screen w-full relative overflow-hidden">
-          <Navbar />
+        <header
+          className={`${styles.background} h-screen w-full relative overflow-hidden z-20`}
+        >
           <div className="md:block hidden">
             <Image
               src="/bg.jpg"
@@ -22,15 +23,9 @@ export default function Home() {
               objectPosition="bottom"
             />
           </div>
-          <div className="md:hidden block">
-            <Image
-              src="/PandaGif.gif"
-              layout="fill"
-              objectFit="cover"
-              objectPosition="bottom"
-            />
-          </div>
-          <div className="md:px-20 relative z-10">
+
+          <Navbar />
+          <div className="md:px-20 relative">
             <div className="relative md:pt-0 pt-4">
               <h1
                 className={` ${styles.heading} md:text-7xl text-5xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm `}

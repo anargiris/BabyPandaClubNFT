@@ -2,3 +2,10 @@
   text-shadow: 3px 0px 20px #b8b8b87e, -3px 0px 20px #b8b8b87e,
     0px 4px 20px #b8b8b87e;
 }
+
+.background {
+  background-image: url("/PandaGif.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
