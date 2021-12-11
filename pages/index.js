@@ -7,13 +7,14 @@ import Roadmap from "../components/Roadmap";
 import FounderCard from "../components/FounderCard";
 import FAQ from "../components/FAQ";
 import styles from "../styles/Home.module.css";
+import MobileNav from "../components/MobileNav";
 
 export default function Home() {
   return (
     <>
       <div className="bg-bg">
         <header
-          className={`${styles.background} h-screen w-full relative overflow-hidden z-20`}
+          className={`${styles.background} bg-bg-dark h-screen w-full relative overflow-hidden z-20`}
         >
           <div className="md:block hidden">
             <Image
@@ -28,7 +29,7 @@ export default function Home() {
           <div className="md:px-20 relative">
             <div className="relative pt-4 md:flex md:flex-row items-start gap-20 justify-center">
               <h1
-                className={` ${styles.heading} md:text-7xl text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm `}
+                className={` ${styles.heading} md:text-7xl text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm md:mb-0 mb-4 `}
               >
                 Baby Panda Club
               </h1>
@@ -42,7 +43,7 @@ export default function Home() {
                   charity work.
                 </p>
                 <Link href="https://opensea.io/collection/baby-panda-club">
-                  <button className="bg-green-secondary mx-auto md:mx-0 border border-green-main text-white py-2 px-4 md:justify-self-auto md:items-baseline md:block flex justify-center items-center hover:bg-green-main transition duration-200">
+                  <button className="bg-green-secondary mx-auto md:mx-0 border border-green-main text-white py-2 px-4 md:justify-self-auto md:items-baseline md:block flex justify-center items-center 2xl:text-lg hover:bg-green-main transition duration-200">
                     Buy on Opensea
                   </button>
                 </Link>
@@ -114,14 +115,14 @@ export default function Home() {
                 image="/portrait.jpg"
                 name="Xristos"
                 role="Founder - Creative Lead"
-                twitterLink="https://twitter.com/AStylidis"
+                twitterLink="https://twitter.com/Ristabots"
               />
               <div className="border-b border-bg w-20 mb-10 md:block hidden"></div>
               <FounderCard
                 image="/portrait.jpg"
                 name="Spuros"
                 role="Founder - Project Lead"
-                twitterLink="https://twitter.com/AStylidis"
+                twitterLink="https://twitter.com/kungfusedpanda"
               />
             </div>
           </section>

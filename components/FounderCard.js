@@ -5,9 +5,10 @@ import Link from "next/link";
 const FounderCard = ({ name, image, role, twitterLink }) => {
   return (
     <div className="md:p-4 p-2 flex md:flex-col flex-row gap-10 md:gap-0">
-      <Image src={image} width={200} height={200} />
-
-      <div className="text-center flex flex-col justify-center items-center">
+      <div className="flex-1">
+        <Image src={image} width={200} height={200} />
+      </div>
+      <div className="text-center flex-1 flex flex-col justify-center items-center">
         <div className="flex gap-2 justify-center items-center">
           <h5 className=" text-md text-bg font-bold tracking-wider">{name}</h5>
 
