@@ -28,12 +28,12 @@ export default function Home() {
           <div className="md:px-20 relative">
             <div className="relative md:pt-0 pt-4">
               <h1
-                className={` ${styles.heading} md:text-7xl text-5xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm `}
+                className={` ${styles.heading} md:text-7xl text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm `}
               >
                 Baby Panda Club
               </h1>
               <div className="md:w-1/2 float-right p-5">
-                <p className="font-abel md:text-xl text-bg mb-8 text-center px-2 md:text-left">
+                <p className="font-abel md:text-xl text-bg mb-8 text-center px-2 md:text-left 2xl:text-2xl">
                   Baby Panda Club is an NFT project of 10,000 unique, randomly
                   generated collectibles living on the Ethereum blockchain.
                   <br />
@@ -42,7 +42,7 @@ export default function Home() {
                   charity work.
                 </p>
                 <Link href="https://opensea.io/collection/baby-panda-club">
-                  <button className="bg-green-secondary mx-auto md border border-green-main text-white py-2 px-4 md:justify-self-auto md:items-baseline md:block flex justify-center items-center hover:bg-green-main transition duration-200">
+                  <button className="bg-green-secondary mx-auto md:mx-0 border border-green-main text-white py-2 px-4 md:justify-self-auto md:items-baseline md:block flex justify-center items-center hover:bg-green-main transition duration-200">
                     Buy on Opensea
                   </button>
                 </Link>
@@ -57,11 +57,11 @@ export default function Home() {
               className="max-w-7xl mx-auto gap-20 md:p-20 p-5 flex md:flex-row flex-col justify-around"
             >
               <div className="md:w-1/2">
-                <h2 className="text-pink-main tracking-wider font-bold text-2xl  font-serifdm">
+                <h2 className="text-pink-main 2xl:text-3xl tracking-wider font-bold text-2xl  font-serifdm">
                   Baby Panda Club
                 </h2>
                 <div className="w-full border-b border-bg pt-2 mb-4"></div>
-                <p className="text-bg font-abel leading-7">
+                <p className="text-bg font-abel leading-7 2xl:text-lg">
                   Baby Panda Club is a collection of 10,000 unique and randomly
                   generated collectibles living on the ECR-20 blockchain. Each
                   baby panda is a combination of different hand-drawn images.
@@ -70,7 +70,7 @@ export default function Home() {
                   about endangered species.
                 </p>
                 <br />
-                <p className="text-xs mt-4 font-abel text-pink-main italic opacity-90">
+                <p className="text-xs mt-4 font-abel text-pink-main italic opacity-90 2xl:text-lg">
                   For each baby panda 30% of the introductory sale and 20% of
                   the royalties will be donated to a selected charitable
                   organization.
