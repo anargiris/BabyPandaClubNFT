@@ -2,7 +2,7 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div className="flex flex-col gap-2 justify-center items-center relative z-20 font-abel">
+    <div className="flex flex-col gap-2 justify-center relative z-20 font-abel">
       <div className="flex md:flex-row flex-col-reverse md:gap-5 justify-between">
         <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 md:w-1/2">
           <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">

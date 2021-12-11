@@ -26,7 +26,7 @@ export default function Home() {
 
           <Navbar />
           <div className="md:px-20 relative">
-            <div className="relative pt-4 flex items-start gap-20 justify-center">
+            <div className="relative pt-4 md:flex md:flex-row items-start gap-20 justify-center">
               <h1
                 className={` ${styles.heading} md:text-7xl text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm `}
               >
@@ -97,7 +97,7 @@ export default function Home() {
             <h3 className="md:text-5xl text-3xl tracking-wide font-serifdm font-bold mb-5 text-bg text-center">
               About us
             </h3>
-            <p className="text-bg md:text-md text-center mb-5 md:max-w-4xl mx-auto">
+            <p className="text-bg md:text-md text-center 2xl:text-lg mb-5 md:max-w-4xl mx-auto">
               We are a small team of NFT enthusiasts based in Greece. Our
               diverse skill set and excitement for this new way of connecting
               with people around the world are what gave life to this project.
