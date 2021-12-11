@@ -3,9 +3,9 @@ import React from "react";
 const Roadmap = () => {
   return (
     <div className="flex flex-col gap-2 justify-center items-center relative z-20 font-abel">
-      <div className="flex lg:flex-row flex-col-reverse lg:gap-5 justify-between">
-        <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
-          <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
+      <div className="flex md:flex-row flex-col-reverse md:gap-5 justify-between">
+        <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 md:w-1/2">
+          <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">
             Giveaway
           </h5>
           <p>
@@ -14,20 +14,20 @@ const Roadmap = () => {
             our Twitter and Discord channels.
           </p>
         </div>
-        <div className=" lg:w-1/2 relative lg:transform lg:skew-x-6 lg:skew-y-3 flex items-center justify-center">
+        <div className=" md:w-1/2 relative md:transform md:skew-x-6 md:skew-y-3 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             20%
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col lg:gap-5 justify-between">
-        <div className=" lg:w-1/2 relative transform lg:skew-x-3 lg:-skew-y-6 flex items-center justify-center">
+      <div className="flex md:flex-row flex-col md:gap-5 justify-between">
+        <div className=" md:w-1/2 relative transform md:skew-x-3 md:-skew-y-6 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             40%
           </p>
         </div>
-        <div className="bg-bg-dark  border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
-          <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
+        <div className="bg-bg-dark  border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 md:w-1/2">
+          <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">
             Legendary Baby Pandas!
           </h5>
           <p>
@@ -37,9 +37,9 @@ const Roadmap = () => {
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col-reverse lg:gap-5 justify-between">
-        <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
-          <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
+      <div className="flex md:flex-row flex-col-reverse md:gap-5 justify-between">
+        <div className="bg-bg-dark border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 md:w-1/2">
+          <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">
             Charity donation!
           </h5>
           <p>
@@ -48,20 +48,20 @@ const Roadmap = () => {
             that wins the poll. This is only the start!
           </p>
         </div>
-        <div className="lg:w-1/2 relative lg:transform lg:skew-x-6 lg:skew-y-3 flex items-center justify-center">
+        <div className="md:w-1/2 relative md:transform md:skew-x-6 md:skew-y-3 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             60%
           </p>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col lg:gap-5 justify-between">
-        <div className=" lg:w-1/2 relative lg:transform lg:skew-x-3 lg:-skew-y-6 flex items-center justify-center">
+      <div className="flex md:flex-row flex-col md:gap-5 justify-between">
+        <div className=" md:w-1/2 relative md:transform md:skew-x-3 md:-skew-y-6 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             80%
           </p>
         </div>
-        <div className="bg-bg-dark border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
-          <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
+        <div className="bg-bg-dark border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 md:w-1/2">
+          <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">
             Charity donation!
           </h5>
           Giveaway of 500 Crypto Pandas to our holders! The giveaway will be
@@ -69,16 +69,16 @@ const Roadmap = () => {
           through our Twitter and Discord channels.
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col-reverse lg:gap-5 justify-between">
-        <div className="bg-bg-dark  border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 lg:w-1/2">
-          <h5 className="text-lg font-bold text-green-secondary tracking-wide leading-10">
+      <div className="flex md:flex-row flex-col-reverse md:gap-5 justify-between">
+        <div className="bg-bg-dark  border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 md:w-1/2">
+          <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">
             Charity donation!
           </h5>
           Giveaway of 500 Crypto Pandas to our holders! The giveaway will be
           completely random and the people participating will be announced
           through our Twitter and Discord channels.
         </div>
-        <div className="lg:w-1/2 relative lg:transform lg:skew-x-6 lg:skew-y-3 flex items-center justify-center">
+        <div className="md:w-1/2 relative md:transform md:skew-x-6 md:skew-y-3 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
             100%
           </p>
