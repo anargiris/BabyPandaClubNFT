@@ -149,7 +149,7 @@ export default function Home() {
               <Roadmap />
             </div>
           </div>
-          <section className="bg-bg-dark md:px-20 px-5 py-4 w-full font-abel">
+          <section className="bg-bg-dark md:px-20 px-2 py-4 w-full font-abel">
             <h3 className="md:text-5xl text-3xl tracking-wide font-serifdm font-bold mb-5 text-bg text-center">
               About us
             </h3>
@@ -168,7 +168,7 @@ export default function Home() {
               <div className="border-b border-bg w-20 mb-10 md:block hidden"></div>
               <FounderCard
                 image="/profiles/Kobd.png"
-                name="Kungfused Panda"
+                name="KungfusedPanda"
                 role="Founder - Project Lead"
                 twitterLink="https://twitter.com/kungfusedpanda"
               />
@@ -176,7 +176,7 @@ export default function Home() {
               <FounderCard
                 image="/profiles/Anargiros.png"
                 name="LazyPanda"
-                role="Founder - Development Lead"
+                role="Founder - Development lead"
                 twitterLink="https://twitter.com/AStylidis"
               />
             </div>
