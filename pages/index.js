@@ -78,7 +78,7 @@ export default function Home() {
                 Baby Panda Club
               </h1>
               <div className="md:w-1/2 float-right p-5">
-                <p className="font-abel md:text-xl text-bg mb-8 text-center px-2 md:text-left 2xl:text-2xl">
+                <p className="font-abel md:text-xl text-bg mb-8 text-center px-2 md:text-left 2xl:text-3xl">
                   Baby Panda Club is an NFT project of 10,000 unique, randomly
                   generated collectibles living on the Ethereum blockchain.
                   <br />
@@ -153,24 +153,24 @@ export default function Home() {
             </p>
             <div className="flex md:flex-row flex-col justify-evenly md:items-center md:max-w-5xl md:mx-auto">
               <FounderCard
-                image="/portrait.jpg"
-                name="Anargyros"
-                role="Founder - Development Lead"
-                twitterLink="https://twitter.com/AStylidis"
-              />
-              <div className="border-b border-bg w-20 mb-10 md:block hidden"></div>
-              <FounderCard
-                image="/portrait.jpg"
-                name="Xristos"
+                image="/profiles/Xristos.png"
+                name="Pandaverse"
                 role="Founder - Creative Lead"
                 twitterLink="https://twitter.com/Ristabots"
               />
               <div className="border-b border-bg w-20 mb-10 md:block hidden"></div>
               <FounderCard
-                image="/portrait.jpg"
-                name="Spuros"
+                image="/profiles/Kobd.png"
+                name="Kungfused Panda"
                 role="Founder - Project Lead"
                 twitterLink="https://twitter.com/kungfusedpanda"
+              />
+              <div className="border-b border-bg w-20 mb-10 md:block hidden"></div>
+              <FounderCard
+                image="/profiles/Anargiros.png"
+                name="LazyPanda"
+                role="Founder - Development Lead"
+                twitterLink="https://twitter.com/AStylidis"
               />
             </div>
           </section>
