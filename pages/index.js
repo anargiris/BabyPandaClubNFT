@@ -66,6 +66,7 @@ export default function Home() {
               objectFit="cover"
               objectPosition="bottom"
               alt="Baby Panda Club header background image"
+              priority
             />
           </div>
 
