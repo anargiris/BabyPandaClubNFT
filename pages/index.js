@@ -7,7 +7,7 @@ import FounderCard from "../components/FounderCard";
 import FAQ from "../components/FAQ";
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
-
+import bg from "../public/bg.jpg";
 export default function Home() {
   return (
     <>
@@ -60,6 +60,13 @@ export default function Home() {
           className={`${styles.background} bg-bg-dark h-screen w-full relative overflow-hidden z-20`}
         >
           <div className="md:block hidden">
+            {/* <Image
+              src={bg}
+              // layout="fill"
+              // objectFit="cover"
+              // objectPosition="bottom"
+              alt="Baby Panda Club header background image"
+            /> */}
             <Image
               src="/bg.jpg"
               layout="fill"

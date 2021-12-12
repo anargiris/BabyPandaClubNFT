@@ -23,7 +23,7 @@ const FounderCard = ({ name, image, role, twitterLink }) => {
             </a>
           </Link>
         </div>
-        <p className="text-pink-main opacity-90  whitespace-nowrap italic">
+        <p className="text-pink-main opacity-90 text-sm md:text-base whitespace-nowrap italic">
           {role}
         </p>
       </div>
