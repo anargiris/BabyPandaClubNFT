@@ -84,12 +84,12 @@ export default function Home() {
           <div className="md:px-20 relative">
             <div className="relative md:pt-4 md:flex md:flex-row items-start gap-20 justify-center">
               <h1
-                className={` ${styles.heading} md:text-7xl text-4xl sm:text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm md:mb-0 mb-1`}
+                className={` ${styles.heading} md:text-7xl text-4xl sm:text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm md:mb-0 mb-2`}
               >
                 Baby Panda Club
               </h1>
               <div className="md:w-1/2 float-right md:p-5 p-2">
-                <p className="font-abel md:text-xl text-bg md:mb-12 mb-20 text-center px-2 md:text-left 2xl:text-3xl">
+                <p className="font-abel md:text-xl text-bg md:mb-12 mb-14 text-center px-2 md:text-left 2xl:text-3xl">
                   Baby Panda Club is an NFT project of 10,000 unique, randomly
                   generated collectibles living on the Ethereum blockchain..
                   <br />
