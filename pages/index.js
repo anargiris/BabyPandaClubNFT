@@ -69,12 +69,22 @@ export default function Home() {
               priority
             />
           </div>
+          <div className="md:hidden block">
+            <Image
+              src="/PandaGif.gif"
+              layout="fill"
+              objectFit="cover"
+              objectPosition="bottom"
+              alt="Baby Panda Club header background image"
+              priority
+            />
+          </div>
 
           <Navbar />
           <div className="md:px-20 relative">
             <div className="relative pt-4 md:flex md:flex-row items-start gap-20 justify-center">
               <h1
-                className={` ${styles.heading} md:text-7xl text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm md:mb-0 mb-4 `}
+                className={` ${styles.heading} md:text-7xl text-4xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm md:mb-0 mb-4 `}
               >
                 Baby Panda Club
               </h1>

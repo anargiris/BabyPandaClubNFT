@@ -3,7 +3,7 @@
     0px 4px 10px #b8b8b87e;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .background {
     background: url("/PandaGif.gif") no-repeat center center;
     -webkit-background-size: cover;
@@ -11,4 +11,4 @@
     -o-background-size: cover;
     background-size: cover;
   }
-}
+} */
