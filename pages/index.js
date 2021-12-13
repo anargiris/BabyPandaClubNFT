@@ -89,7 +89,7 @@ export default function Home() {
                 Baby Panda Club
               </h1>
               <div className="md:w-1/2 float-right md:p-5 p-2">
-                <p className="font-abel md:text-xl text-bg md:mb-12 mb-40 text-center px-2 md:text-left 2xl:text-3xl">
+                <p className="font-abel md:text-xl text-bg md:mb-12 mb-20 text-center px-2 md:text-left 2xl:text-3xl">
                   Baby Panda Club is an NFT project of 10,000 unique, randomly
                   generated collectibles living on the Ethereum blockchain..
                   <br />
