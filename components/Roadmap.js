@@ -72,8 +72,8 @@ const Roadmap = () => {
           <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">
             Big donation!
           </h5>
-          It's time for the BIG donation!! 30% of the introductory and 20% of
-          royalty fees will be given to a charitable organisation of YOUR
+          It&apos;s time for the BIG donation!! 30% of the introductory and 20%
+          of royalty fees will be given to a charitable organisation of YOUR
           choice.
         </div>
         <div className="md:w-1/2 relative md:transform md:skew-x-6 md:skew-y-3 flex items-center justify-center">
