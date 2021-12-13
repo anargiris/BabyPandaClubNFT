@@ -73,8 +73,6 @@ export default function Home() {
             <Image
               src="/PandaGif.gif"
               layout="fill"
-              objectFit="cover"
-              objectPosition="bottom"
               alt="Baby Panda Club header background image"
               priority
             />
