@@ -42,7 +42,7 @@ const Roadmap = () => {
             Charity donation!
           </h5>
           <p>
-            Baby pandas T-shirts and sweater will be released, ready to be
+            Baby pandas T-shirts and hoodies will be released, ready to be
             shipped around the world.
           </p>
         </div>
