@@ -55,7 +55,7 @@ export default function Home() {
           }}
         />
       </Head>
-      <div className="bg-bg">
+      <div className="bg-bg overflow-x-hidden">
         <header
           className={`${styles.background} bg-bg-dark h-screen w-full relative overflow-hidden z-20`}
         >
@@ -74,6 +74,7 @@ export default function Home() {
               src="/secondary.jpg"
               layout="fill"
               objectFit="cover"
+              objectPosition="center"
               alt="Baby Panda Club header background image"
               priority
             />
@@ -83,7 +84,7 @@ export default function Home() {
           <div className="md:px-20 relative">
             <div className="relative pt-4 md:flex md:flex-row items-start gap-20 justify-center">
               <h1
-                className={` ${styles.heading} md:text-7xl text-4xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm md:mb-0 mb-4 `}
+                className={` ${styles.heading} md:text-7xl text-4xl sm:text-5xl 2xl:text-8xl text-center md:text-left whitespace-nowrap text-bg font-bold font-serifdm md:mb-0 mb-4 `}
               >
                 Baby Panda Club
               </h1>
@@ -97,7 +98,7 @@ export default function Home() {
                   for charitable organisations.
                 </p>
                 <Link href="https://opensea.io/collection/baby-panda-club">
-                  <button className="bg-green-secondary mx-auto md:mx-0 border border-green-main text-white py-2 px-4 md:justify-self-auto md:items-baseline md:block flex justify-center items-center 2xl:text-lg hover:bg-green-main transition duration-200">
+                  <button className="bg-green-secondary mx-auto md:mx-0 border border-green-main text-white py-2 px-4 md:justify-self-auto md:items-baseline md:block flex justify-center items-center 2xl:text-xl hover:bg-green-main transition duration-200">
                     Buy on Opensea
                   </button>
                 </Link>
