@@ -42,9 +42,8 @@ const Roadmap = () => {
             Charity donation!
           </h5>
           <p>
-            Our first donation to charity comes here. Our community will be
-            asked to vote in a poll and 2 ETH will be donated to the charity
-            that wins the poll. This is only the start!
+            Baby pandas T-shirts and sweater will be released, ready to be
+            shipped around the world.
           </p>
         </div>
         <div className="md:w-1/2 relative md:transform md:skew-x-6 md:skew-y-3 flex items-center justify-center">
