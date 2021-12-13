@@ -81,11 +81,11 @@ export default function Home() {
               <div className="md:w-1/2 float-right p-5">
                 <p className="font-abel md:text-xl text-bg mb-8 text-center px-2 md:text-left 2xl:text-3xl">
                   Baby Panda Club is an NFT project of 10,000 unique, randomly
-                  generated collectibles living on the Ethereum blockchain.
+                  generated collectibles living on the Ethereum blockchain..
                   <br />
                   <br />
-                  We are an &quot;NFT for Good&quot; project, aiming at doing
-                  charity work.
+                  ..an &quot;NFT for Good&quot; project, aiming to raise funds
+                  for charitable organisations.
                 </p>
                 <Link href="https://opensea.io/collection/baby-panda-club">
                   <button className="bg-green-secondary mx-auto md:mx-0 border border-green-main text-white py-2 px-4 md:justify-self-auto md:items-baseline md:block flex justify-center items-center 2xl:text-lg hover:bg-green-main transition duration-200">
@@ -145,7 +145,7 @@ export default function Home() {
           </div>
           <section className="bg-bg-dark md:px-20 px-2 py-4 w-full font-abel">
             <h3 className="md:text-5xl text-3xl tracking-wide font-serifdm font-bold mb-5 text-bg text-center">
-              About us
+              The team
             </h3>
             <p className="text-bg md:text-md text-center 2xl:text-lg mb-5 md:max-w-4xl mx-auto">
               We are a small team of NFT enthusiasts based in Greece. Our

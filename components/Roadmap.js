@@ -9,9 +9,8 @@ const Roadmap = () => {
             Giveaway
           </h5>
           <p>
-            Giveaway of 500 Crypto Pandas to our holders! The giveaway will be
-            completely random and the people winning will be announced through
-            our Twitter and Discord channels.
+            Give back to holders and the community. Baby Panda NFTs and 5 brand
+            new and handmade pandas will be given away.
           </p>
         </div>
         <div className=" md:w-1/2 relative md:transform md:skew-x-6 md:skew-y-3 flex items-center justify-center">
@@ -31,9 +30,9 @@ const Roadmap = () => {
             Legendary Baby Pandas!
           </h5>
           <p>
-            50 legendary baby pandas will be created and unleashed in the
-            Pandaverse! 100% handmade and with unique one-time traits, the
-            legendary pandas will be auctioned to the community.
+            15 legendary baby pandas will be created and unleashed in the
+            Pandaverse! 100% handmade and with unique one-time traits. All
+            profits will be given to a selected charity organisation.
           </p>
         </div>
       </div>
@@ -62,21 +61,20 @@ const Roadmap = () => {
         </div>
         <div className="bg-bg-dark border-r-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 md:w-1/2">
           <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">
-            Charity donation!
+            More legendary Pandas!
           </h5>
-          Giveaway of 500 Crypto Pandas to our holders! The giveaway will be
-          completely random and the people participating will be announced
-          through our Twitter and Discord channels.
+          30 more legendary pandas are waiting to be auctioned. Once again, all
+          the profits of this auction will be donated!!
         </div>
       </div>
       <div className="flex md:flex-row flex-col-reverse md:gap-5 justify-between">
         <div className="bg-bg-dark  border-l-4 border-green-secondary opacity-90 rounded-md text-bg px-4 py-2 md:w-1/2">
           <h5 className="text-md font-bold text-green-secondary tracking-wide leading-10">
-            Charity donation!
+            Big donation!
           </h5>
-          Giveaway of 500 Crypto Pandas to our holders! The giveaway will be
-          completely random and the people participating will be announced
-          through our Twitter and Discord channels.
+          It's time for the BIG donation!! 30% of the introductory and 20% of
+          royalty fees will be given to a charitable organisation of YOUR
+          choice.
         </div>
         <div className="md:w-1/2 relative md:transform md:skew-x-6 md:skew-y-3 flex items-center justify-center">
           <p className="text-4xl text-bg-dark font-bold tracking-wider font-serifdm text-center">
