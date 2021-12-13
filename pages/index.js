@@ -71,8 +71,9 @@ export default function Home() {
           </div>
           <div className="md:hidden block">
             <Image
-              src="/PandaGif.gif"
+              src="/secondary.jpg"
               layout="fill"
+              objectFit="cover"
               alt="Baby Panda Club header background image"
               priority
             />
